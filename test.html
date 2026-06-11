@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muth Lawelke</title>
+
+  <style>
+    * {
+    box-sizing: border-box;
+	}
+	
+	/* Basis: "Fensterrahmen" der ganzen Seite */
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Inhalt zentrieren + maximale Breite */
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Kopfbereich (Hero) */
+    .hero {
+      /* Farbverlauf: türkis -> blau */
+      background: linear-gradient(135deg, #2dd4bf 0%, #2563eb 100%);
+      color: white;
+      padding: 56px 16px;
+    }
+
+    /* Stil der Titelzeile */
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 2.2rem;
+      line-height: 1.15;
+    }
+
+    /* Stil des Textabschnitts */
+    .hero p {
+      margin: 0;
+      font-size: 1.1rem;
+      opacity: 0.95;
+      max-width: 65ch;
+    }
+
+    /* Stil des Hauptinhalts */
+    .content {
+      padding: 32px 16px;
+    }
+
+    /* Stil der Bildergalerie */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    /* Stil der Fußzeile */
+    footer {
+      margin-top: 32px;
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+	
+	/* Stil der horizontalen Trennlinie */
+	hr {
+      margin: 30px 0;
+      border: none;
+      border-top: 1px solid #cccccc;
+	}
+  </style>
+</head>
+
+<body>
+  <!-- Farbige Titelzeile mit Kurzbeschreibung -->
+  <header class="hero">
+    <div class="wrap">
+      <h1>Testseite (Sport mit Muth Lawelke)</h1>
+      <p>Vitalität + Lebensfreude + Leistungsfähigkeit + ... :-)<br>
+	  <a href="#Terminübersicht">Aktuelle Termine</a> - 
+	  <a href="#Kurs-Details">Kurs-Details</a> - 
+	  <a href="#Über-mich">Über mich</a> - 
+	  <a href="#Impressum">Impressum</a>
+	  </p>
+    </div>
+  </header>
+
+  <!-- Hauptinhalt -->
+  <main class="content">
+    <div class="wrap">
+	  <!-- Hier geht der Hauptinhalt der Seite los...-->
+      <h2 id="Terminübersicht">Termine</h2>
+	  <p>Hier findet ihr meine aktuelle Terminübersicht. Damit wisst ihr immer welche Kurse demnächst stattfinden. Weiter unten findet ihr eine ausführlichere Kursbeschreibungen - siehe <a href="#Kurs-Details">Kurs-Details</a>.</p>
+	  <div style="font-family: monospace;">
+		  <ul>
+			<li>Do. 17.09.2026, 19:00 - 20:00 Uhr - (<a href="#Kurs-III">Kurs III</a>) Grüne Wiese</li>
+			<li>Di. 22.09.2026, 10:00 - 11:00 Uhr - (<a href="#Kurs-IV">Kurs IV</a>) Qigong für Anfänger (1/10)</li>
+			<li>Do. 24.09.2026, 18:00 - 19:30 Uhr - (<a href="#Kurs-I">Kurs I</a>) Limani Stretching (1/10)</li>
+			<li>Do. 24.09.2026, 19:30 - 21:00 Uhr - (<a href="#Kurs-II">Kurs II</a>) Limani Kondition (1/10)</li>
+			<li>Do. 01.10.2026, 18:00 - 19:30 Uhr - (<a href="#Kurs-I">Kurs I</a>) Limani Stretching (2/10)</li>
+			<li>Do. 01.10.2026, 19:30 - 21:00 Uhr - (<a href="#Kurs-II">Kurs II</a>) Limani Kondition (2/10)</li>
+			<li>weitere Termine folgen ...</li>
+		  </ul>
+	  </div>
+	  <p>Letzte Aktualisierung der Terminübersicht: <strong>10.06.2026</strong></p>
+	  
+	  <hr> <!--Horzontale Linie-->
+	  
+	  <h2 id="Kurs-Details">Kurs-Details</h2>
+	  <p>In diesem Abschnitt findet ihr meine Kurse mit einer ausführlicheren Beschreibung. Viel Spaß beim Stöbern.</p>
+	  
+	  <h3 id="Kurs-I">Kurs I - Limani Stretching</h3>
+	  <p>Was erwartet mich in dem Kurs?<br>Wo findet der Kurs statt?<br>Wann sind die Kurstermine?<br>Zu welcher Uhrzeit findet der Kurs statt?<br>Was muss ich mitbringen?<br>Wird der Kurs von der Krankenversicherung gefördert?</p>
+	  
+      <div class="gallery">
+        <img src="images/bild1.jpg" alt="Beschreibung Bild 1">
+        <img src="images/bild2.jpg" alt="Beschreibung Bild 2">
+        <img src="images/bild3.jpg" alt="Beschreibung Bild 3">
+      </div>
+
+	  <h3 id="Kurs-II">Kurs II - Limani Kondition</h3>
+	  <p>Was erwartet mich in dem Kurs?<br>Wo findet der Kurs statt?<br>Wann sind die Kurstermine?<br>Zu welcher Uhrzeit findet der Kurs statt?<br>Was muss ich mitbringen?<br>Wird der Kurs von der Krankenversicherung gefördert?</p>
+	  
+      <div class="gallery">
+        <img src="images/bild1.jpg" alt="Beschreibung Bild 1">
+        <img src="images/bild2.jpg" alt="Beschreibung Bild 2">
+        <img src="images/bild3.jpg" alt="Beschreibung Bild 3">
+      </div>
+
+	  <h3 id="Kurs-III">Kurs III - Grüne Wiese</h3>
+	  <p>Was erwartet mich in dem Kurs?<br>Wo findet der Kurs statt?<br>Wann sind die Kurstermine?<br>Zu welcher Uhrzeit findet der Kurs statt?<br>Was muss ich mitbringen?<br>Wird der Kurs von der Krankenversicherung gefördert?</p>
+	  
+	  <div class="gallery">
+        <img src="images/Wiese_1.jpg" alt="Ruth">
+        <img src="images/Wiese_2.jpg" alt="Christine">
+        <img src="images/Wiese_3.jpg" alt="Anita">
+		<img src="images/Wiese_4.jpg" alt="Alle">
+      </div>
+
+	  <h3 id="Kurs-IV">Kurs IV - Qigong für Anfänger</h3>
+	  <p>Was erwartet mich in dem Kurs?<br>Wo findet der Kurs statt?<br>Wann sind die Kurstermine?<br>Zu welcher Uhrzeit findet der Kurs statt?<br>Was muss ich mitbringen?<br>Wird der Kurs von der Krankenversicherung gefördert?</p>
+	  
+	  <div class="gallery">
+        <img src="images/bild1.jpg" alt="Beschreibung Bild 1">
+        <img src="images/bild2.jpg" alt="Beschreibung Bild 2">
+        <img src="images/bild3.jpg" alt="Beschreibung Bild 3">
+      </div>
+
+	  <hr> <!--Horzontale Linie-->
+	  
+	  <h2 id="Über-mich">Über mich</h2>
+	  <p>Mein Berufsleben begann mit der Ausbildung zur Gärtnerin. SÄEN, PFLEGEN, ERNTEN. Dieser Prozess des Wachstums durch Veränderung ist der rote Faden meiner persönlichen Entwicklung. Aus diesem reifen Erfahrungsschatz heraus bereite ich den Boden für ein zu Ihrem Betrieb passendes praxisorientiertes Gesundheitskonzept.<br>
+	  Stationen tabellarisch</p>
+	  <ul>
+		<li>Gärtnerin</li>
+		<li>Sport- und Gymnastiklehrerin</li>
+		<li>Leitung des Gesundheitszyklus bei: das Stadtwerk Westbad.</li>
+		<li>Animation Grecotel Corfu Imperial, Korfu, GR</li>
+		<li>Animation Ouranos Club, Korfu, GR</li>
+		<li>Heilpraktikerin für Psychotherapie</li>
+	  </ul>
+	  <p>Aktuell</p>
+	  <ul>
+		<li>Leitung Westbad aktiv bei: das Stadtwerk Bäder</li>
+		<li>Dozentin bei der Gesellschaft für Erwachsenen Bildung</li>
+		<li>Dozentin bei der Caritas Adaptionseinrichtung START</li>
+		<li>Betriebliches Gesundheitstraining</li>
+		<li>Gesprächstherapeutisch begleitete Bewegungs- und Tanztherapie</li>
+		<li>Fachausbildung Qigong Lehrerin</li>
+		<li>Geschichtenmacherin.</li>
+	  </ul>
+	  
+	  <hr> <!--Horzontale Linie-->
+	  
+	  <h2 id="Impressum">Impressum</h2>
+	  <p>Muth Lawelke<br>Büro: Dechbettener Strasse 1<br>93049 Regensburg<br>Telefon: <a href="tel:+49941xxxxxxxx">+49 941 xx xx xx xx</a></p>
+	  <p>Staatlich geprüfte Sport- und Gymnastiklehrerin<br>Heilpraktikerin für Psychotherapie</p>
+	  <p>E-Mail: <a href="mailto:info@muth-lawelke.de">info@muth-lawelke.de</a><br>Internet: <a href="https://www.muth-lawelke.de">www.muth-lawelke.de</a></p>
+	  <p>Haftungshinweis:<br>Inhaltlich Verantwortliche gemäß §10 Absatz 3 MDStV:<br>Ruth Pawelke-Peters</p>
+	  <p>Gestaltung und Konzeption: Muth Lawelke</p>
+	  
+    </div>
+  </main>
+</body>
+</html>
