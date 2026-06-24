@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+
+<li>Do. 17.09.2026, 19:00-20:00 Uhr - <a href="#Kurs-III">Kurs III</a> Grüne Wiese</li>
+
+BEGIN:VEVENT
+UID:Kurs_III-2026-001@muth-lawelke.de
+DTSTAMP:20260624T204000
+SUMMARY:Grüne Wiese
+DTSTART:20260917T190000
+DTEND:20260917T200000
+LOCATION:Stadtpark Regensburg, Nähe Weiher
+GEO:49.01988;12.08002
+DESCRIPTION:Grüne Wiese. Bitte bequeme Kleidung mit bringen.
+END:VEVENT
+
+END:VCALENDAR

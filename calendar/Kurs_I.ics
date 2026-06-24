@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 
 BEGIN:VEVENT
-UID:Kurs_I-2026-09-24@muth-lawelke.de
-DTSTAMP:20260621T105500
+UID:Kurs_I-2026-Herbst-001@muth-lawelke.de
+DTSTAMP:20260624T204300
 SUMMARY:Limani Stretching (1/10)
 DTSTART:20260924T180000
 DTEND:20260924T193000
-LOCATION:Westbad Regensburg
+LOCATION:Westbad Regensburg, Treffpunkt Eingang
 DESCRIPTION:Limani Stretching. Bitte bequeme Kleidung mit bringen.
 END:VEVENT
 
