@@ -9,7 +9,7 @@ DTSTART:20260917T190000
 DTEND:20260917T200000
 LOCATION:Stadtpark Regensburg, Nähe Weiher
 GEO:49.01988;12.08002
-DESCRIPTION:Grüne Wiese. Bitte bequeme Kleidung mit bringen.
+DESCRIPTION:Grüne Wiese. Bitte bequeme Kleidung mit bringen.\nTreffpunkt Nähe Weiher.\nGoogle Maps: https://maps.google.com/?q=49.01988,12.08002
 END:VEVENT
 
 END:VCALENDAR
