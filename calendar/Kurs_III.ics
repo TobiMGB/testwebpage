@@ -1,8 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 
-<li>Do. 17.09.2026, 19:00-20:00 Uhr - <a href="#Kurs-III">Kurs III</a> Grüne Wiese</li>
-
 BEGIN:VEVENT
 UID:Kurs_III-2026-001@muth-lawelke.de
 DTSTAMP:20260624T204000
