@@ -1,0 +1,13 @@
+# Ignore the specific macro-enabled workbook
+*.xlsm
+
+# Ignore Excel temporary owner/lock files (Crucial!)
+~$*.xls*
+
+# Ignore any standard temporary files created during editing
+*.tmp
+
+# Optional: Ignore all other standard Excel formats if needed later
+# *.xlsx
+# *.xls
+# *.csv
